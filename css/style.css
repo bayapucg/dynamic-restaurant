@@ -1,17 +1,29 @@
 *{
 	padding:0;
 	margin:0;
+	font-family:Sans-serif;
 }
 .navbar{
 	 background-color:#fb4b4b !important; 
 	 margin-bottom:0 !important;
 	/* background-image:url("img/business3.jpg"); */
 }
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 18px;
+}
 .ban{
 	 !important;
 }
 .navbar-nav li a{
     color:#fff !important;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
 }
 .img{
 	width:100%;
@@ -34,9 +46,10 @@
 	 background-color:#fb4b4b !important; 
 }
 .about{
-text-align:center;
+
 color:#fb4b4b ; 
-margin-top:50px;
+font-weight:600;
+
 }
 .bg-gray{
 		background-color:#eee;
@@ -56,14 +69,16 @@ margin-top:50px;
 	
 }
 .chag{
-	letter-spacing:3px;
-	font-size:15px;
-	font-family:Sans-serif;
+	letter-spacing:0.5px;
+	font-size:18px;
+	
+	line-height:28px;
 }
 .chage{
-	font-size:12px;
-	letter-spacing:1px;
+		letter-spacing:0.5px;
+	font-size:16px;
 	font-family:Sans-serif;
+	line-height:24px;
 }
 .men
 {
@@ -89,11 +104,17 @@ margin-top:50px;
 		background: #fff;
 		border-radius:5px;
 		padding:10px;
-		
-		
-		-webkit-box-shadow: 2px 3px 4px -4px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 3px 4px -4px rgba(0,0,0,0.75);
-box-shadow: 2px 3px 4px -4px rgba(0,0,0,0.75);
+		-webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+.footer-links  a{
+	color:#fff;
+	text-decoration:none;
+}
+.footer-links  a:hover{
+	color:#fb4b4b;
+	text-decoration:none;
 }
 
 .banner-size img{
@@ -106,6 +127,10 @@ box-shadow: 2px 3px 4px -4px rgba(0,0,0,0.75);
 	text-align:center;
 }
 .main{
+
+	font-size:20px;
+}
+.footer-underline{
 	border-bottom:2px solid #fb4b4b;
 	width:80px;
 	font-size:20px;
