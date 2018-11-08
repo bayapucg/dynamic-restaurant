@@ -24,7 +24,7 @@
                   <div class="ft-widget-area">
                     <div class="ft-area1">
                       <div class="swin-wget swin-wget-about">
-                        <div class="clearfix"><a class="wget-logo"><img src="assets/images/logo-ft.png" alt="" class="img img-responsive"></a>
+                        <div class="clearfix"><a class="wget-logo"><img style="height:100px;width:auto;" src="assets/images/logo.png" alt="" class="img img-responsive"></a>
                           <ul class="socials socials-about list-unstyled list-inline">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
