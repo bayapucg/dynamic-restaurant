@@ -43,9 +43,9 @@
     -ms-transform: translate(-50%, -65%); 
 
 }
-.gallery .gal img {
-    width: 100%;
-	max-height:100px;
+ .gal img {
+    width: %;
+	height: 180px;
 	margin-top:20px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
@@ -121,17 +121,13 @@ font-weight:600;
 	background-color:#4d4d4d;
 	color:#fff;
 	}
-.card-customise {
-    background: #fff;
-    border-radius: 5px;
-    padding: 20px;
-	margin-top:70px;
-    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
-}
-.roll{
-	margin-top:100px;
+.card-customise{
+		background: #fff;
+		border-radius:5px;
+		padding:20px;
+		-webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
 }
 .footer-links  a{
 	color:#fff;
@@ -170,12 +166,12 @@ font-weight:600;
 	
 }
 .quo{
-	font-size:30px;
+	font-size:50px;
 	font-family:Arial;
 	position:absolute;
 	top:30%;
 	left:40%;
-	color: #fb4b4b;
+	color:#fff;
 	font-weight:bold;
 }
 .ul{
@@ -194,9 +190,7 @@ font-weight:600;
 .menu-head{
 	text-align:center;
 }
-.us{
-	margin-top:100px;
-}
+
 .log{
 	position: absolute;
     top: 25%;
