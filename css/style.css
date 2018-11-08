@@ -242,44 +242,9 @@ font-weight:600;
   overflow: hidden;
 }
 
-.testimonial4_indicators .carousel-indicators{
-  left: 0;
-  margin: 0;
-  width: 100%;
-  font-size: 0;
-  height: 20px;
-  bottom: 15px;
-  padding: 0 5px;
-  cursor: e-resize;
-  overflow-x: auto;
-  overflow-y: hidden;
-  position: absolute;
-  text-align: center;
-  white-space: nowrap;
-}
-.testimonial4_indicators .carousel-indicators li{
-  padding: 0;
-  width: 10px;
-  height: 10px;
-  border: none;
-  text-indent: 0;
-  margin: 2px 3px;
-  cursor: pointer;
-  display: inline-block;
-  background: #ffffff;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-}
-.testimonial4_indicators .carousel-indicators .active{
-  padding: 0;
-  width: 10px;
-  height: 10px;
-  border: none;
-  margin: 2px 3px;
-  background-color: #000;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-}
+
+
+
 .testimonial4_indicators .carousel-indicators::-webkit-scrollbar{
   height: 3px;
 }
