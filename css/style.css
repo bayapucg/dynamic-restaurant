@@ -47,12 +47,8 @@
     width: 100%;
 	margin-top:20px;
     transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
-.gallery .gal img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-}
+
 
 .gallery img {
     border-radius: 5px;
@@ -170,7 +166,7 @@ font-weight:600;
 	position:absolute;
 	top:30%;
 	left:40%;
-	color:#fff;
+	color:#333;
 	font-weight:bold;
 }
 .ul{
@@ -221,6 +217,7 @@ font-weight:600;
 	position:absolute;
 	top:13%;
 	left:15%;
+	color:#fb4b4b;
 }
 
 
