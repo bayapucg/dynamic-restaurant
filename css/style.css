@@ -43,9 +43,8 @@
     -ms-transform: translate(-50%, -65%); 
 
 }
- .gal img {
-    width: %;
-	height: 180px;
+ .gallery .gal img {
+    width: 100%;
 	margin-top:20px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
