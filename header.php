@@ -76,7 +76,8 @@
           <div class="header-main">
             <div class="container">
              
-             
+              <div class="open-offcanvas">&#9776;</div>
+              
               <div class="header-logo"><a href="index.php" class="logo logo-static"><img src="assets/images/logo.png" alt="pracha" class="logo-img img-responsive"></a><a href="index.php" class="logo logo-fixed"><img src="assets/images/logo.png" alt="pracha" class="logo-img img-responsive" style="height:50px;width:auto;background:#f15f2a"></a></div>
               <nav id="main-nav-offcanvas" class="main-nav-wrapper">
                 <div class="close-offcanvas-wrapper"><span class="close-offcanvas">x</span></div>
