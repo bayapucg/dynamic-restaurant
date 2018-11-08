@@ -83,7 +83,7 @@
                 <div class="close-offcanvas-wrapper"><span class="close-offcanvas">x</span></div>
                 <div class="main-nav">
                   <ul id="main-nav" class="nav nav-pills">
-                    <li class=" current-menu-item"><a href="index.php" class="">Home</a><i class="fa fa-angle-down btn-open-dropdown"></i>
+                    <li class=" current-menu-item"><a href="index.php" class="">Home</a>
                   
                     </li>
                     <li><a href="about.php">About</a></li>
