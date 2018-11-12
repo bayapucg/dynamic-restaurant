@@ -6,35 +6,14 @@
 						<div class="col-xs-4">
 							<h4 class="page-title">Menu</h4>
 						</div>
-						
 					
 					</div>
 					<div  class="row">
-					<div class="col-lg-6">
-					<div class="form-group">
-											<label>Upload Banner</label>
-											 <input type="file" class="form-control" >
-										</div>
-					</div>
+					
 					<div class="col-lg-6">
 					<div class="form-group">
       <label>Title:</label>
-      <input type="text" class="form-control"placeholder="Enter title...." >
-	  </div>
-					</div>
-					
-					</div>
-					<div  class="row">
-					<div class="col-lg-12">
-					<h4 class="text-primary">Menu </h4></div>
-					<div class="col-lg-6">
-					<div class="form-group">
-      <label>MenuType:</label>
-      <select class="form-control">
-        <option>Menu type</option>
-        <option>Menu</option>
-        <option>Daily special</option>
-      </select>
+      <input type="text" class="form-control"placeholder="Enter title...."  value="fruit">
 	  </div>
 					</div>
 					<div class="col-lg-6">
@@ -49,10 +28,12 @@
       </select>
 	  </div>
 					</div>
-					
 					</div>
+					<form id="defaultForm" method="post" class="m-b-30" action="menu-home.php">
+					<div  class="">
+					
 					<div class="row"> 
-								<div class="col-md-12"> 
+								<div class="col-md-12 "> 
 									<table class="table table-bordered table-hover" id="tab_logic">
 										<thead>
 											<tr >

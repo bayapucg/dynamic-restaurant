@@ -7,95 +7,51 @@
 							<h4 class="page-title">Testimonial</h4>
 						</div>
 					
-					</div>
-					<form id="defaultForm" method="post" class="m-b-30" action="testimonial.php">
 					
+					</div>
+					<form id="defaultForm" method="post" class="m-b-30" action="addsalery.php">
+					
+								<div class="row"> 
+								<div class="col-md-12"> 
+									<table class="table table-bordered table-hover" id="tab_logic">
+										<thead>
+											<tr >
+												<th class="text-center">
+													Image
+												</th>
+												<th class="text-center">
+													Name
+												</th>
+												<th class="text-center">
+													Designation
+												</th>
+												<th class="text-center">
+													Paragraph
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr id='addr0'>
+												<td>
+													<input type="file" class="form-control">
+												</td>
+												<td>
+												<input type="text" name='name0'  placeholder='Enter Name' class="form-control"/>
+												</td>
+												<td>
+												<input type="text" name='name0'  placeholder='Enter Designation' class="form-control"/>
+												</td>
+												<td>
+												<input type="text" name='name0'  placeholder='Enter here..' class="form-control"/>
+												</td>
+											</tr>
+											<tr id='addr1'></tr>
+										</tbody>
+									</table>	
+									<a id="add_row" class="btn btn-default pull-left">Add Row</a><a id='delete_row' class="pull-right btn btn-default">Delete Row</a>
+								</div>
+								</div>
 								
-	
-								<div class="row"> 
-									<div class="col-md-6">
-									<h4 class="text-primary">Testimonial 1</h4>				
-										<div class="form-group">
-											<label>upload Image</label>
-											<input type="file" class="form-control">
-										</div>
-										<div class="form-group">
-											<label>Name</label>
-											<input type="text" class="form-control" placeholder="Enter Name" name="lastName">
-										</div>
-										<div class="form-group">
-											<label>Designation</label>
-											<input type="text" class="form-control" placeholder="Enter Designation">
-										</div>
-										<div class="form-group">
-											<label>Paragraph</label>
-											<textarea class="form-control" rows="5" placeholder="Enter Description..."></textarea>
-										</div>
-										
-									</div>
-									<div class="col-md-6">
-									<h4 class="text-primary">Testimonial 2</h4>				
-										<div class="form-group">
-											<label>upload Image</label>
-											<input type="file" class="form-control">
-										</div>
-										<div class="form-group">
-											<label>Name</label>
-											<input type="text" class="form-control" placeholder="Enter Name">
-										</div>
-										<div class="form-group">
-											<label>Designation</label>
-											<input type="text" class="form-control" placeholder="Enter Designation">
-										</div>
-										<div class="form-group">
-											<label>Paragraph</label>
-											<textarea class="form-control" rows="5" placeholder="Enter Description..."></textarea>
-										</div>
-										
-									</div>
-								</div>
-								<div class="row"> 
-									<div class="col-md-6">
-									<h4 class="text-primary">Testimonial 3</h4>				
-										<div class="form-group">
-											<label>upload Image</label>
-											<input type="file" class="form-control">
-										</div>
-										<div class="form-group">
-											<label>Name</label>
-											<input type="text" class="form-control" placeholder="Enter Name" name="lastName">
-										</div>
-										<div class="form-group">
-											<label>Designation</label>
-											<input type="text" class="form-control" placeholder="Enter Designation">
-										</div>
-										<div class="form-group">
-											<label>Paragraph</label>
-											<textarea class="form-control" rows="5" placeholder="Enter Description..."></textarea>
-										</div>
-										
-									</div>
-									<div class="col-md-6">
-									<h4 class="text-primary">Testimonial 4</h4>				
-										<div class="form-group">
-											<label>upload Image</label>
-											<input type="file" class="form-control">
-										</div>
-										<div class="form-group">
-											<label>Name</label>
-											<input type="text" class="form-control" placeholder="Enter Name">
-										</div>
-										<div class="form-group">
-											<label>Designation</label>
-											<input type="text" class="form-control" placeholder="Enter Designation">
-										</div>
-										<div class="form-group">
-											<label>Paragraph</label>
-											<textarea class="form-control" rows="5" placeholder="Enter Description..."></textarea>
-										</div>
-										
-									</div>
-								</div>
 								<div class="m-t-20 text-center">
 									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Upload</button>
 																	</div>
@@ -105,7 +61,24 @@
 					</div>
 				</div>
 			</div>
-			
+<script>
+     $(document).ready(function(){
+      var i=1;
+     $("#add_row").click(function(){
+      $('#addr'+i).html("<td><input name='name"+i+"' type='file'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='text' placeholder='Enter Name'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter Designation'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter here..'  class='form-control input-md'></td>");
+
+      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+      i++; 
+  });
+     $("#delete_row").click(function(){
+    	 if(i>1){
+		 $("#addr"+(i-1)).html('');
+		 i--;
+		 }
+	 });
+
+});
+</script>
 <?php include("footer.php"); ?>
 
 
