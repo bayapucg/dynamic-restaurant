@@ -6,10 +6,7 @@
 			<div class="col-xs-4">
 				<h4 class="page-title">About Us</h4>
 			</div>
-			<div class="col-xs-8 text-right m-b-30">
-							<a href="edit-aboutusbrief.php" class="btn btn-warning pull-right rounded" ><i class="fa fa-edit"></i> Edit </a>
-						
-						</div>
+			
 		</div>
 		<form id="defaultForm" method="post" class="m-b-30" action="aboutus.php">
 			<div class="row">
@@ -22,7 +19,7 @@
 					<div class="col-md-6">
 						<div class="form-group">
 							<label>Enter Title</label>
-							<input type="text" class="form-control" placeholder="Enter Title">
+							<input type="text" class="form-control" placeholder="Enter Title" value="fruit">
 							</div>
 						</div>
 					</div>
@@ -30,7 +27,7 @@
 						<div class="col-md-12">
 							<div class="form-group">
 								<label>Paragraph</label>
-								<textarea class="form-control" rows="5" name="lastName" placeholder="Enter Here..."></textarea>
+								<textarea class="form-control" rows="5" name="lastName" placeholder="Enter Here..." value="fruit"></textarea>
 							</div>
 						</div>
 					</div>
