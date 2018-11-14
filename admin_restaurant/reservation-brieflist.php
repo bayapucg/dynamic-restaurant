@@ -20,8 +20,8 @@
 									<table id="example1" class="table table-bordered table-striped">
 									<thead>
 										<tr>
-											<th style="width:30%;">Image</th>
-											<th>Phone number</th>
+											<th style="width:30%;">Banner</th>
+											<th>Title</th>
 											
 											<th class="text-right">Action</th>
 										</tr>
@@ -34,10 +34,10 @@
 												<img class="img-responsive" src="assets/img/fruit.jpeg" alt="" style="height:50px;width:auto;">
 											</td>
 											
-											<td>8956748596</td>
+											<td>Food Go</td>
 											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
-												<a href="edit-reservation.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
+												<a href="edit-reservationbrief.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
 											</td>
 										</tr>
 										<tr>
@@ -45,11 +45,11 @@
 												<img class="img-responsive" src="assets/img/flower.jpeg" alt="" style="height:50px;width:auto;">
 											</td>
 											
-											<td>8974568947</td>
+											<td>Crazy Food</td>
 											<td class="text-right">
 											
 												<button type="button" class="btn btn-danger">Delete</button>
-												<a href="edit-reservation.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
+												<a href="edit-reservationbrief.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
 												
 											</td>
 										</tr>
@@ -78,5 +78,6 @@
     });
   });
 </script>
+
 
 

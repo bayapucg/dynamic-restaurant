@@ -101,24 +101,38 @@
 									<ul class="list-unstyled" style="display: none;">
 								
 									<li><a href="reservation.php">Reservation Brief</a></li>
-									<li><a href="">Reservation Brief list</a></li>
+									<li><a href="reservation-brieflist.php">Reservation list</a></li>
 								
 						
 								</ul></li>
 						
 								</ul>
 							</li>
-							<li class="submenu">
+								<li class="submenu">
 								<a href="#" class=""><span> Services</span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
 								
-									<li><a href="services-home.php">Services home page</a></li>
-									<li><a href="services-homelist.php">Services home page list</a></li>
+									<li class="submenu"><a href="#">Services Homepage</a>
+									<ul class="list-unstyled" style="display: none;">
+								
+									<li><a href="services-home.php">Home page</a></li>
+									<li><a href="services-homelist.php">Homepage list</a></li>
+								
+						
+								</ul>
+								</li>
+									<li class="submenu"><a href="">Serviecs Brief</a>
+									<ul class="list-unstyled" style="display: none;">
+								
 									<li><a href="services.php">Services Brief</a></li>
-									<li><a href="services-list.php">Services Brief List</a></li>
+									<li><a href="services-list.php">Services brief list</a></li>
+								
+						
+								</ul></li>
 						
 								</ul>
 							</li>
+							
 							<li class="submenu">
 								<a href="#" class=""><span> Gallery </span> <span class="menu-arrow"></span></a>
 								<ul class="list-unstyled" style="display: none;">
