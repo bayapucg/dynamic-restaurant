@@ -8,7 +8,7 @@
 			</div>
 			
 		</div>
-		<form id="defaultForm" method="post" class="m-b-30" action="aboutus.php">
+		<form id="defaultForm" method="post" class="m-b-30" action="aboutus-brief.php">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
@@ -27,7 +27,8 @@
 						<div class="col-md-12">
 							<div class="form-group">
 								<label>Paragraph</label>
-								<textarea class="form-control" rows="5" name="lastName" placeholder="Enter Here..." value="fruit"></textarea>
+								<!--<input type="text" class="form-control" placeholder="Enter Title" value="Plot No. 177, Sri Vani Nilayam, Hyderabad.">-->
+								<textarea class="form-control" rows="5" name="lastName" placeholder="Enter Here..." value="fruit">Plot No. 177, Sri Vani Nilayam, Hyderabad</textarea>
 							</div>
 						</div>
 					</div>

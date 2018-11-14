@@ -113,8 +113,9 @@
 								<ul class="list-unstyled" style="display: none;">
 								
 									<li><a href="services-home.php">Services home page</a></li>
+									<li><a href="services-homelist.php">Services home page list</a></li>
 									<li><a href="services.php">Services Brief</a></li>
-									<li><a href="services-list.php">Services List</a></li>
+									<li><a href="services-list.php">Services Brief List</a></li>
 						
 								</ul>
 							</li>

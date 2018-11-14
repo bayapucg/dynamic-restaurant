@@ -42,7 +42,7 @@
 											<td>www.google.com</td>
 											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
-												<a href="topheader.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
+												<a href="edit-topheader.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
 											</td>
 										</tr>
 										<tr>
@@ -56,7 +56,7 @@
 											<td>www.google.com</td>
 											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
-												<a href="topheader.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
+												<a href="edit-topheader.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
 											</td>
 										</tr>
 									</tbody>

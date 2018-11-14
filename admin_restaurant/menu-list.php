@@ -40,10 +40,11 @@
 											</td>
 											
 											<td>fruit</td>
-											<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+											<td>Lorem Ipsum is simply dummy text of the printing . </td>
 											<td>100</td>
 											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
+												<a href="edit-menu.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
 											</td>
 										</tr>
 										<tr>
@@ -54,10 +55,11 @@
 											</td>
 											
 											<td>flower</td>
-											<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</td>
+											<td>Lorem Ipsum is simply dummy text of the printing . </td>
 											<td>50</td>
 											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
+												<a href="edit-menu.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
 											</td>
 										</tr>
 									</tbody>

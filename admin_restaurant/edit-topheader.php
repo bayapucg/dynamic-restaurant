@@ -12,8 +12,9 @@
 				<div class="col-md-6">
 					<div class="form-group">
 						<label>Address</label>
-						<input type="text" class="form-control" value="Plot No. 177, Sri Vani Nilayam, Hyderabad.
-"></input>
+						<!--<input type="text" class="form-control" value="Plot No. 177, Sri Vani Nilayam, Hyderabad.
+"></input>--><textarea class="form-control" name="lastName">Plot No. 177, Sri Vani Nilayam, Hyderabad.
+</textarea>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -30,13 +31,13 @@
 					<div class="col-md-6">
 						<div class="form-group">
 							<label>facebook Link</label>
-							<input type="text" class="form-control" placeholder="Enter facebook Link">
+							<input type="text" class="form-control" placeholder="Enter facebook Link" value="www.facebook.com">
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
 								<label>Twitter Link</label>
-								<input type="text" class="form-control" placeholder="Enter Twitter Link">
+								<input type="text" class="form-control" placeholder="Enter Twitter Link" value="www.twitter.com">
 								</div>
 							</div>
 						</div>
@@ -44,7 +45,7 @@
 							<div class="col-md-6">
 								<div class="form-group">
 									<label>Google+ Link</label>
-									<input type="text" class="form-control" placeholder="Enter Google+ Link">
+									<input type="text" class="form-control" placeholder="Enter Google+ Link" value="www.google.com">
 									</div>
 								</div>
 							</div>

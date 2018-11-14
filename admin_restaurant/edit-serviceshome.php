@@ -33,10 +33,10 @@
 													<input type="file" class="form-control">
 												</td>
 												<td>
-												<input type="text" name='name0'  placeholder='Enter Name' class="form-control"/>
+												<input type="text" name='name0'  placeholder='Enter Name' class="form-control"value="fruit"/>
 												</td>
 												<td>
-												<input type="text" name='name0'  placeholder='Enter Pragraph' style="max-width=100ch" class="form-control"/>
+												<input type="text" name='name0'  placeholder='Enter Pragraph' style="max-width=100ch" class="form-control" value="hyderabad plat no:104"/>
 												</td>
 											</tr>
 											<tr id='addr1'></tr>
