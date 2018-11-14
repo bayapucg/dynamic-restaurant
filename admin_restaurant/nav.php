@@ -7,9 +7,10 @@
 				<h4 class="page-title">Nav</h4>
 			</div>
 			<div class="col-xs-8 text-right m-b-30">
-							<a href="edit-nav.php" class="btn btn-warning pull-right rounded" ><i class="fa fa-edit"></i> Edit </a>
-						
-						</div>
+				<a href="edit-nav.php" class="btn btn-warning pull-right rounded" >
+					<i class="fa fa-edit"></i> Edit 
+				</a>
+			</div>
 		</div>
 		<form id="defaultForm" method="post" class="m-b-30" action="nav.php">
 			<div class="row">

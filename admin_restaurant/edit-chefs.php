@@ -6,10 +6,6 @@
 			<div class="col-xs-4">
 				<h4 class="page-title">Chefs</h4>
 			</div>
-			<div class="col-xs-8 text-right m-b-30">
-							<a href="edit-chefs.php" class="btn btn-warning pull-right rounded" ><i class="fa fa-edit"></i> Edit </a>
-						
-						</div>
 		</div>
 		<form id="defaultForm" method="post" class="m-b-30" action="chefs.php">
 			<div class="row">
@@ -34,10 +30,10 @@
 									<input type="file" class="form-control">
 									</td>
 									<td>
-										<input type="text" name='name0'  placeholder='Enter Name' class="form-control"/>
+										<input type="text" name='name0'  placeholder='Enter Name' class="form-control" value="sundhar"/>
 									</td>
 									<td>
-										<input type="text" name='name0'  placeholder='Enter specialist' class="form-control"/>
+										<input type="text" name='name0'  placeholder='Enter specialist' class="form-control"value="pizza specialist"/>
 									</td>
 								</tr>
 								<tr id='addr1'></tr>
@@ -53,13 +49,23 @@
 			</form>
 		</div>
 	</div>
-<script>
+</div>undefined</div>undefined<script>
      $(document).ready(function(){
       var i=1;
      $("#add_row").click(function(){
-      $('#addr'+i).html("<td><input name='name"+i+"' type='file'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='text' placeholder='Enter Name'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter specialist'  class='form-control input-md'></td>");
+      $('#addr'+i).html("
+<td>
+	<input name='name"+i+"' type='file'  class='form-control input-md'  />
+</td>
+<td>
+	<input  name='mail"+i+"' type='text' placeholder='Enter Name'  class='form-control input-md'>
+	</td>
+	<td>
+		<input  name='mail"+i+"' type='text' placeholder='Enter specialist'  class='form-control input-md'>
+		</td>");
 
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+      $('#tab_logic').append('
+		<tr id="addr'+(i+1)+'"></tr>');
       i++; 
   });
      $("#delete_row").click(function(){
@@ -70,5 +76,6 @@
 	 });
 
 });
-</script>
+
+	</script>
 	<?php include("footer.php"); ?>

@@ -450,12 +450,7 @@
                         <p class="team-name">MICHAEL DOE</p>
                         <p class="team-position">Head Chef</p>
                         <hr>
-                        <ul class="socials-nb list-inline">
-                          <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
+                        
                       </div>
                       <div class="team-item swin-transition wow fadeInUp">
                         <div class="team-img-wrap">
@@ -464,12 +459,7 @@
                         <p class="team-name">Teresa Doe</p>
                         <p class="team-position">Head Chef</p>
                         <hr>
-                        <ul class="socials-nb list-inline">
-                          <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
+                        
                       </div>
                       <div class="team-item swin-transition wow fadeInRight">
                         <div class="team-img-wrap">
@@ -478,12 +468,7 @@
                         <p class="team-name">BENJAMIN MARK</p>
                         <p class="team-position">Head Chef</p>
                         <hr>
-                        <ul class="socials-nb list-inline">
-                          <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
+                        
                       </div>
                       <div class="team-item swin-transition">
                         <div class="team-img-wrap">
@@ -492,12 +477,7 @@
                         <p class="team-name">Teresa Doe</p>
                         <p class="team-position">Head Chef</p>
                         <hr>
-                        <ul class="socials-nb list-inline">
-                          <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
-                          <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
+                        
                       </div>
                     </div>
                   </div>

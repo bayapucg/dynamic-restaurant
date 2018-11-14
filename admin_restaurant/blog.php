@@ -4,14 +4,14 @@
 	<div class="content container-fluid bg-white">
 		<div class="row">
 			<div class="col-xs-4">
-				<h4 class="page-title">Chefs</h4>
+				<h4 class="page-title">Blog</h4>
 			</div>
 			<div class="col-xs-8 text-right m-b-30">
-							<a href="edit-chefs.php" class="btn btn-warning pull-right rounded" ><i class="fa fa-edit"></i> Edit </a>
+							<a href="edit-blog.php" class="btn btn-warning pull-right rounded" ><i class="fa fa-edit"></i> Edit </a>
 						
 						</div>
 		</div>
-		<form id="defaultForm" method="post" class="m-b-30" action="chefs.php">
+		<form id="defaultForm" method="post" class="m-b-30" action="blog.php">
 			<div class="row">
 				<div class="col-md-9 col-md-offset-1">
 					<table class="table table-bordered table-hover" id="tab_logic">
@@ -21,10 +21,10 @@
 													Image
 												</th>
 								<th class="text-center">
-													Name
+													Date
 												</th>
 								<th class="text-center">
-													specialist
+													procedure
 												</th>
 							</tr>
 						</thead>
@@ -34,10 +34,10 @@
 									<input type="file" class="form-control">
 									</td>
 									<td>
-										<input type="text" name='name0'  placeholder='Enter Name' class="form-control"/>
+										<input type="date" name='name0'  placeholder='Enter date' class="form-control"/>
 									</td>
 									<td>
-										<input type="text" name='name0'  placeholder='Enter specialist' class="form-control"/>
+										<input type="text" name='name0'  placeholder='Enter procedure' class="form-control"/>
 									</td>
 								</tr>
 								<tr id='addr1'></tr>
@@ -53,11 +53,13 @@
 			</form>
 		</div>
 	</div>
-<script>
+
+
+	<script>
      $(document).ready(function(){
       var i=1;
      $("#add_row").click(function(){
-      $('#addr'+i).html("<td><input name='name"+i+"' type='file'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='text' placeholder='Enter Name'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter specialist'  class='form-control input-md'></td>");
+      $('#addr'+i).html("<td><input name='name"+i+"' type='file'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='date' placeholder='Enter date'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter Procedure'  class='form-control input-md'></td>");
 
       $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
       i++; 

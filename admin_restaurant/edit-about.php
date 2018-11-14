@@ -6,9 +6,8 @@
 			<div class="col-xs-4">
 				<h4 class="page-title">About Us</h4>
 			</div>
-			
 		</div>
-		<form id="defaultForm" method="post" class="m-b-30" action="aboutus-brief.php">
+		<form id="defaultForm" method="post" class="m-b-30" action="aboutus.php">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">

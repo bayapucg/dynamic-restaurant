@@ -7,7 +7,7 @@
 							<h4 class="page-title">Reservation</h4>
 						</div>
 						<div class="col-xs-8 text-right m-b-30">
-							<a href="reservation-home.php" class="btn btn-primary pull-right rounded" ><i class="fa fa-plus"></i> Add Reservation</a>
+							<a href="reservation.php" class="btn btn-primary pull-right rounded" ><i class="fa fa-plus"></i> Add Reservation</a>
 						
 						</div>
 					</div>

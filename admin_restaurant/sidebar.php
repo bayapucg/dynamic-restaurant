@@ -142,7 +142,15 @@
 						
 								</ul>
 							</li>
+							<li class="submenu">
+								<a href="#" class=""><span>Blog</span> <span class="menu-arrow"></span></a>
+								<ul class="list-unstyled" style="display: none;">
+								
+									<li><a href="blog.php">Add Blog</a></li>
+									<li><a href="blog-list.php">Blog List</a></li>
 						
+								</ul>
+							</li>
 							
 							
 							<li class=""> 
