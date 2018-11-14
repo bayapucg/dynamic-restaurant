@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favi_con.png">
-        <title>Pracha</title>
+        <title>Pracha Restaurant</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrapValidator.css">
@@ -30,7 +30,7 @@
 					</a>
                 </div>
                 <div class="page-title-box pull-left">
-					<h3>Pracha Restaurant Templete</h3>
+					<h3>Pracha Restaurant</h3>
                 </div>
 				<a id="mobile_btn" class="mobile_btn pull-left" href="#sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a>
 				<ul class="nav navbar-nav navbar-right user-menu pull-right">	
@@ -42,10 +42,10 @@
 							<i class="caret"></i>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="profile.html">My Profile</a></li>
-							<li><a href="edit-profile.html">Edit Profile</a></li>
-							<li><a href="settings.html">Settings</a></li>
-							<li><a href="login.html">Logout</a></li>
+							<li><a href="profile.php">My Profile</a></li>
+							<li><a href="edit-profile.php">Edit Profile</a></li>
+							<li><a href="changepassword.php">Change Password</a></li>
+							<li><a href="login.php">Logout</a></li>
 						</ul>
 					</li>
 				</ul>

@@ -11,6 +11,8 @@
 						
 						</div>
 					</div>
+					
+					<form id="defaultForm" method="post" class="m-b-30" action="menu-home.php">
 					<div  class="row">
 					
 					<div class="col-lg-6">
@@ -32,7 +34,6 @@
 	  </div>
 					</div>
 					</div>
-					<form id="defaultForm" method="post" class="m-b-30" action="menu-home.php">
 					<div  class="">
 					
 					<div class="row"> 
