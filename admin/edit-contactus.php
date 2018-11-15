@@ -23,7 +23,41 @@
 										
 										
 									</div>
-									
+									<div class="col-lg-6">
+									<div class="col-lg-12">
+								<label>Opening Hours</label></div>
+									</div>
+									<div class="col-md-6">
+										<div class="col-md-12"> 
+									<table class="table table-bordered table-hover" id="tab_logic">
+										<thead>
+											<tr >
+												<th class="text-center">
+													Day
+												</th>
+												<th class="text-center">
+													Time
+												</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr id='addr0'>
+												<td>
+													<input type="text" class="form-control" value="monday">
+												</td>
+												<td>
+												<input type="time" name='name0'  placeholder='Enter Name' class="form-control"/>
+												</td>
+												
+											</tr>
+											<tr id='addr1'></tr>
+										</tbody>
+									</table>	
+									<a id="add_row" class="btn btn-default pull-left">Add Row</a><a id='delete_row' class="pull-right btn btn-default">Delete Row</a>
+								</div>
+										
+										
+									</div>
 									
 								</div>
 								<div class="row"> 
@@ -100,7 +134,24 @@
 					</div>
 				</div>
 			</div>
-			
+			<script>
+     $(document).ready(function(){
+      var i=1;
+     $("#add_row").click(function(){
+      $('#addr'+i).html("<td><input name='name"+i+"' type='text'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='time'   class='form-control input-md'></td>");
+
+      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+      i++; 
+  });
+     $("#delete_row").click(function(){
+    	 if(i>1){
+		 $("#addr"+(i-1)).html('');
+		 i--;
+		 }
+	 });
+
+});
+</script>
 <?php include("footer.php"); ?>
 
 

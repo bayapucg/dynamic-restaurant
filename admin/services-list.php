@@ -52,7 +52,7 @@
 											</td>
 											<td class="text-right">
 												<button type="button" class="btn btn-danger">Delete</button>
-												<a href="edit-about.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
+												<a href="edit-servicesbrief.php"><button type="button" class="btn btn-warning"><i class="fa fa-edit"></i> Edit</button></a>
 											</td>
 										</tr>
 										

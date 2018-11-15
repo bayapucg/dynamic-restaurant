@@ -9,7 +9,7 @@
 					
 					
 					</div>
-					<form id="defaultForm" method="post" class="m-b-30" action="services.php">
+					<form id="defaultForm" method="post" class="m-b-30" action="services-home.php">
 					
 								<div class="row"> 
 								<div class="col-md-6"> 
@@ -18,7 +18,6 @@
 											 <input type="file" class="form-control" >
 										</div>
 									</div>
-								
 								<div class="col-md-12"> 
 									<table class="table table-bordered table-hover" id="tab_logic">
 										<thead>
@@ -40,10 +39,10 @@
 													<input type="file" class="form-control">
 												</td>
 												<td>
-												<input type="text" name='name0'  placeholder='Enter Name' class="form-control"/>
+												<input type="text" name='name0'  placeholder='Enter Name' class="form-control"value="fruit"/>
 												</td>
 												<td>
-												<input type="text" name='name0'  placeholder='Enter Paragraph' style="max-width=100ch" class="form-control"/>
+												<input type="text" name='name0'  placeholder='Enter Paragraph' style="max-width=100ch" class="form-control" value="hyderabad plat no:104"/>
 												</td>
 											</tr>
 											<tr id='addr1'></tr>
