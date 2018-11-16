@@ -11,15 +11,15 @@
     <!-- Bootstrap CSS-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome-->
-    <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
    
-    <link rel="stylesheet" href="assets/vendors/flexslider/flexslider.min.css">
-    <link rel="stylesheet" href="assets/vendors/swipebox/css/swipebox.min.css">
-    <link rel="stylesheet" href="assets/vendors/slick/slick.min.css">
-    <link rel="stylesheet" href="assets/vendors/slick/slick-theme.min.css">
-    <link rel="stylesheet" href="assets/vendors/animate.min.css">
+    <link rel="stylesheet" href="assets/css/flexslider.min.css">
+    <link rel="stylesheet" href="assets/css/swipebox.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="assets/vendors/pageloading/css/component.min.css">
+    <link rel="stylesheet" href="assets/css/component.min.css">
     <!-- Font-icon-->
     <link rel="stylesheet" href="assets/fonts/font-icon/style.css">
     <!-- Style-->
@@ -34,10 +34,10 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
     <!-- Script Loading Page-->
-    <script src="assets/vendors/html5shiv.js"></script>
-    <script src="assets/vendors/respond.min.js"></script>
-    <script src="assets/vendors/pageloading/js/snap.svg-min.js"></script>
-    <script src="assets/vendors/pageloading/sidebartransition/js/modernizr.custom.js"></script>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <script src="assets/js/snap.svg-min.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
   </head>
   <body>
     <div id="pagewrap" class="pagewrap">
