@@ -6,10 +6,7 @@
 						<div class="col-xs-4">
 							<h4 class="page-title">Menu</h4>
 						</div>
-						<div class="col-xs-8 text-right m-b-30">
-							<a href="menu-brief.php" class="btn btn-warning pull-right rounded" ><i class="fa fa-edit"></i> Edit </a>
 						
-						</div>
 					
 					</div>
 					<div  class="row">
@@ -22,7 +19,7 @@
 					<div class="col-lg-6">
 					<div class="form-group">
       <label>Title:</label>
-      <input type="text" class="form-control"placeholder="Enter title...." >
+      <input type="text" class="form-control"placeholder="Enter title...." value="fruit" >
 	  </div>
 					</div>
 					
@@ -54,7 +51,7 @@
 					</div>
 					
 					</div>
-					<form id="defaultForm" method="post" class="m-b-30" action="menu.php">
+					<form id="defaultForm" method="post" class="m-b-30" action="menu-brief.php">
 					<div class="row"> 
 								<div class="col-md-12"> 
 									<table class="table table-bordered table-hover" id="tab_logic">
@@ -80,13 +77,13 @@
 													<input type="file" class="form-control">
 												</td>
 												<td>
-												<input type="text" name='name0'  placeholder='Enter Name' class="form-control"/>
+												<input type="text" name='name0'  placeholder='Enter Name' class="form-control"value="fruit"/>
 												</td>
 												<td>
-												<input type="text" name='name0'  placeholder='Enter Description' class="form-control"/>
+												<input type="text" name='name0'  placeholder='Enter Description' class="form-control" value="this is a fruit"/>
 												</td>
 												<td>
-												<input type="number" name='name0'  placeholder='Enter Price' class="form-control"/>
+												<input type="number" name='name0'  placeholder='Enter Price' class="form-control" value="100"/>
 												</td>
 											</tr>
 											<tr id='addr1'></tr>

@@ -49,13 +49,23 @@
 			</form>
 		</div>
 	</div>
-<script>
+</div>undefined</div>undefined<script>
      $(document).ready(function(){
       var i=1;
      $("#add_row").click(function(){
-      $('#addr'+i).html("<td><input name='name"+i+"' type='file'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='text' placeholder='Enter Name'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter specialist'  class='form-control input-md'></td>");
+      $('#addr'+i).html("
+<td>
+	<input name='name"+i+"' type='file'  class='form-control input-md'  />
+</td>
+<td>
+	<input  name='mail"+i+"' type='text' placeholder='Enter Name'  class='form-control input-md'>
+	</td>
+	<td>
+		<input  name='mail"+i+"' type='text' placeholder='Enter specialist'  class='form-control input-md'>
+		</td>");
 
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+      $('#tab_logic').append('
+		<tr id="addr'+(i+1)+'"></tr>');
       i++; 
   });
      $("#delete_row").click(function(){
@@ -66,5 +76,6 @@
 	 });
 
 });
-</script>
+
+	</script>
 	<?php include("footer.php"); ?>

@@ -43,7 +43,7 @@
 												<input type="text" name='name0'  placeholder='Enter Name' class="form-control"/>
 												</td>
 												<td>
-												<input type="text" name='name0'  placeholder='Enter Paragraph' style="max-width=100ch" class="form-control"/>
+												<input type="text" name='name0'  placeholder='Enter Pragraph' style="max-width=100ch" class="form-control"/>
 												</td>
 											</tr>
 											<tr id='addr1'></tr>

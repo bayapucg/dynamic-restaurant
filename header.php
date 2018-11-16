@@ -89,9 +89,7 @@
                     <li><a href="about.php">About</a></li>
                     <li><a href="reservation.php">Reservation</a></li>
                     <li class="dropdown"><a href="menu.php">Menu</a>
-                    
                     </li>
-                  
                     <li><a href="contact.php">Contact</a></li>
                   </ul>
                 </div>
