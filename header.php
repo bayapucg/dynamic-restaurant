@@ -9,7 +9,7 @@
     <title>PRACHA RESTAURANT</title>
 		<link rel="icon" href="http://prachatech.com/assets/vendor/img/fav.png" >
     <!-- Bootstrap CSS-->
-    <link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome-->
     <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css">
    
