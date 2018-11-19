@@ -163,7 +163,7 @@
 								<a href="contactus.php">ContactUs<span class="menu-arrow"></span></a>
 							</li>
 							<li class=""> 
-								<a href="dynamic-restaurant/index.php">Preview<span class="menu-arrow"></span></a>
+								<a href="dynamic-restaurant/index.php" target="_blank">Preview<span class="menu-arrow"></span></a>
 							</li>
 							
 							
