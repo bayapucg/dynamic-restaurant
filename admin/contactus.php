@@ -39,19 +39,33 @@
 													Day
 												</th>
 												<th class="text-center">
-													Time
+													Time From
+												</th>
+												<th class="text-center">
+													Time Upto
 												</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr id='addr0'>
 												<td>
-													<input type="text" class="form-control">
+													<select class="form-control">
+													<option>Select Day</option>
+													<option>Monday</option>
+													<option>Tuesday</option>
+													<option>Wednesday</option>
+													<option>Thursday</option>
+													<option>Friday</option>
+													<option>Saturday</option>
+													<option>Sunday</option>
+												  </select>
 												</td>
 												<td>
 												<input type="time" name='name0'  placeholder='Enter Name' class="form-control"/>
 												</td>
-												
+												<td>
+												<input type="time" name='name0'  placeholder='Enter Name' class="form-control"/>
+												</td>
 											</tr>
 											<tr id='addr1'></tr>
 										</tbody>
@@ -146,7 +160,7 @@
      $(document).ready(function(){
       var i=1;
      $("#add_row").click(function(){
-      $('#addr'+i).html("<td><input name='name"+i+"' type='text'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='time'   class='form-control input-md'></td>");
+      $('#addr'+i).html("<td><select   class='form-control'  ><option>Select Day</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option><option>Saturday</option><option>Sunday</option></select> </td><td><input  name='mail"+i+"' type='time'   class='form-control input-md'></td><td><input  name='mail"+i+"' type='time'   class='form-control input-md'></td>");
 
       $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
       i++; 
