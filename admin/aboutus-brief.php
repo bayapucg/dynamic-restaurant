@@ -27,51 +27,21 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<label>Paragraph</label>
-								<textarea class="form-control" rows="5" name="lastName" placeholder="Enter Here..."></textarea>
-							</div>
-						</div>
-					</div>
+				
 					<form id="defaultForm" method="post" class="m-b-30" action="#">
 						<div class="row">
 							<div class="col-lg-12">
-								<h4 class="text-primary">Customer Review</h4>
+								<h4 class="text-primary">Add Paragraph</h4>
 							</div>
 							<div class="col-md-12">
 								<table class="table table-bordered table-hover" id="tab_logic">
-									<thead>
-										<tr >
-											<th class="text-center">
-													Banner
-												</th>
-											<th class="text-center">
-													Image
-												</th>
-											<th class="text-center">
-													Name
-												</th>
-											<th class="text-center">
-													Review
-												</th>
-										</tr>
-									</thead>
+									
 									<tbody>
 										<tr id='addr0'>
 											<td>
-												<input type="file" class="form-control">
+												<textarea class="form-control" name="" placeholder="Enter Here..."></textarea>
 												</td>
-												<td>
-													<input type="file" class="form-control">
-													</td>
-													<td>
-														<input type="text" name='name0'  placeholder='Enter name' class="form-control"/>
-													</td>
-													<td>
-														<input type="text" name='name0'  placeholder='Enter Review' class="form-control"/>
-													</td>
+												
 												</tr>
 												<tr id='addr1'></tr>
 											</tbody>
@@ -93,7 +63,7 @@
      $(document).ready(function(){
       var i=1;
      $("#add_row").click(function(){
-      $('#addr'+i).html("<td><input name='name"+i+"' type='file'  class='form-control input-md'  /> </td><td><input name='name"+i+"' type='file'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='text' placeholder='Enter Name'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter Review'  class='form-control input-md'></td>");
+      $('#addr'+i).html("<td><textarea name='name"+i+"' class='form-control input-md'></textarea> </td>");
 
       $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
       i++; 

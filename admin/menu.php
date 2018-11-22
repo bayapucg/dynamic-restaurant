@@ -37,18 +37,7 @@
       </select>
 	  </div>
 					</div>
-					<div class="col-lg-6">
-					<div class="form-group">
-      <label>FoodType:</label>
-      <select class="form-control">
-        <option>Select food type</option>
-        <option>Breakfast</option>
-        <option>Lunch</option>
-        <option>Snaks</option>
-        <option>Dinner</option>
-      </select>
-	  </div>
-					</div>
+			
 					
 					</div>
 					<div class="row"> 
@@ -57,6 +46,8 @@
 										<thead>
 											<tr >
 												<th class="text-center">
+													FoodType
+												</th><th class="text-center">
 													Image
 												</th>
 												<th class="text-center">
@@ -72,6 +63,15 @@
 										</thead>
 										<tbody>
 											<tr id='addr0'>
+												<td>
+													 <select class="form-control">
+													<option>Select food type</option>
+													<option>Breakfast</option>
+													<option>Lunch</option>
+													<option>Snaks</option>
+													<option>Dinner</option>
+												  </select>
+												</td>
 												<td>
 													<input type="file" class="form-control">
 												</td>
@@ -101,10 +101,11 @@
 				</div>
 			</div>
 			<script>
+			
      $(document).ready(function(){
       var i=1;
      $("#add_row").click(function(){
-      $('#addr'+i).html("<td><input name='name"+i+"' type='file'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='text' placeholder='Enter Name'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter Description'  class='form-control input-md'></td></td><td><input  name='mail"+i+"' type='number' placeholder='Enter Price'  class='form-control input-md'></td>");
+      $('#addr'+i).html("<td><select   class='form-control'  ><option>Select food type</option><option>Breakfast</option><option>Lunch</option><option>Snaks</option><option>Dinner</option></select> </td><td> &nbsp; </td><td><input  name='mail"+i+"' type='text' placeholder='Enter Name'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter Description'  class='form-control input-md'></td></td><td><input  name='mail"+i+"' type='number' placeholder='Enter Price'  class='form-control input-md'></td>");
 
       $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
       i++; 
