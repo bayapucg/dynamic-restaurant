@@ -52,13 +52,15 @@
 			</form>
 		</div>
 	</div>
-<script>
+
+
+	<script>
      $(document).ready(function(){
       var i=1;
      $("#add_row").click(function(){
       $('#addr'+i).html("<td><input name='name"+i+"' type='file'  class='form-control input-md'  /> </td><td><input  name='mail"+i+"' type='date' placeholder='Enter date'  class='form-control input-md'></td><td><input  name='mail"+i+"' type='text' placeholder='Enter Procedure'  class='form-control input-md'></td>");
 
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+      $('#tab_logic').append('<tr id="add--'+(i+1)+'"></tr>');
       i++; 
   });
      $("#delete_row").click(function(){

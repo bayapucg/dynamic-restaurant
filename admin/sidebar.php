@@ -62,7 +62,13 @@
 									<li><a href="menu-list.php">Home page List</a></li>
 						
 								</ul></li>
-									<li><a href="menu.php">Menu Brief</a></li>
+									<li class="submenu"><a href="menu.php">Menu Brief</a>
+									<ul class="list-unstyled" style="display: none;">
+								
+									<li><a href="menu.php">Menu brief</a></li>
+									<li><a href="menubrief-list.php">Menu brief List</a></li>
+						
+								</ul></li>
 						
 								</ul>
 							</li>
@@ -157,7 +163,7 @@
 								<a href="contactus.php">ContactUs<span class="menu-arrow"></span></a>
 							</li>
 							<li class=""> 
-								<a href="dynamic-restaurant/index.php">Preview<span class="menu-arrow"></span></a>
+								<a href="dynamic-restaurant/index.php" target="_blank">Preview<span class="menu-arrow"></span></a>
 							</li>
 							
 							
